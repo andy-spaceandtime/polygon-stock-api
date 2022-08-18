@@ -1,0 +1,25 @@
+{
+  "name": "polygon-stock-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "schedule:aggregator": "node ./scheduler/aggregator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "@polygon.io/client-js": "^6.0.3",
+    "cors": "^2.8.5",
+    "node-schedule": "^2.1.0"
+  }
+}
